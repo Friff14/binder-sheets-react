@@ -173,6 +173,214 @@ let card_template_data = {
                         }
                     ],
                     "flags": []
+                },
+                {
+                    "id": 13,
+                    "name": "If recruit is Money",
+                    "columnIndex": 1,
+                    "expectedValue": "Money",
+                    "comparisonOperator": "==",
+                    "bindings": [
+                        {
+                            "name": "Money Recruit Background",
+                            "type": "image",
+                            "x": 0,
+                            "y": 0,
+                            "width": 360,
+                            "height": 504,
+                            "column-index": null,
+                            "value": "https://snag.gy/rabxC6.jpg",
+                            "fill-style": "stretch",
+                            "id": 14
+                        }
+                    ],
+                    "flags": []
+                },
+                {
+                    "id": 15,
+                    "name": "If recruit is Press",
+                    "columnIndex": 1,
+                    "expectedValue": "Press",
+                    "comparisonOperator": "==",
+                    "bindings": [
+                        {
+                            "name": "Press Recruit Background",
+                            "type": "image",
+                            "x": 0,
+                            "y": 0,
+                            "width": 360,
+                            "height": 504,
+                            "column-index": null,
+                            "value": "https://snag.gy/vIT29r.jpg",
+                            "fill-style": "stretch",
+                            "id": 16
+                        }
+                    ],
+                    "flags": []
+                },
+                {
+                    "id": 17,
+                    "name": "If recruit is Family",
+                    "columnIndex": 1,
+                    "expectedValue": "Family",
+                    "comparisonOperator": "==",
+                    "bindings": [
+                        {
+                            "name": "Family Recruit Background",
+                            "type": "image",
+                            "x": 0,
+                            "y": 0,
+                            "width": 360,
+                            "height": 504,
+                            "column-index": null,
+                            "value": "https://snag.gy/Tz4uCx.jpg",
+                            "fill-style": "stretch",
+                            "id": 18
+                        }
+                    ],
+                    "flags": []
+                }
+            ]
+        },
+        {
+            "id": 19,
+            "name": "If type is event",
+            "columnIndex": 2,
+            "expectedValue": "Event",
+            "comparisonOperator": "==",
+            "bindings": [],
+            "flags": [
+                {
+                    "id": 21,
+                    "name": "If Event is neutral",
+                    "columnIndex": 1,
+                    "expectedValue": "Neutral",
+                    "comparisonOperator": "==",
+                    "bindings": [
+                        {
+                            "name": "Neutral Event Background",
+                            "type": "image",
+                            "x": 0,
+                            "y": 0,
+                            "width": 360,
+                            "height": 504,
+                            "column-index": null,
+                            "value": "https://i.snag.gy/wFKe75.jpg",
+                            "fill-style": "stretch",
+                            "id": 21
+                        },
+                    ],
+                    "flags": []
+                },
+                {
+                    "id": 22,
+                    "name": "If Event is incumbent",
+                    "columnIndex": 1,
+                    "expectedValue": "Incumbent",
+                    "comparisonOperator": "==",
+                    "bindings": [
+                        {
+                            "name": "Incumbent Event Background",
+                            "type": "image",
+                            "x": 0,
+                            "y": 0,
+                            "width": 360,
+                            "height": 504,
+                            "column-index": null,
+                            "value": "https://snag.gy/8bTBKG.jpg",
+                            "fill-style": "stretch",
+                            "id": 23
+                        }
+                    ],
+                    "flags": []
+                },
+                {
+                    "id": 24,
+                    "name": "If Event is People",
+                    "columnIndex": 1,
+                    "expectedValue": "People",
+                    "comparisonOperator": "==",
+                    "bindings": [
+                        {
+                            "name": "People Event Background",
+                            "type": "image",
+                            "x": 0,
+                            "y": 0,
+                            "width": 360,
+                            "height": 504,
+                            "column-index": null,
+                            "value": "https://snag.gy/rabxC6.jpg",
+                            "fill-style": "stretch",
+                            "id": 25
+                        }
+                    ],
+                    "flags": []
+                },
+                {
+                    "id": 26,
+                    "name": "If Event is Money",
+                    "columnIndex": 1,
+                    "expectedValue": "Money",
+                    "comparisonOperator": "==",
+                    "bindings": [
+                        {
+                            "name": "Money Event Background",
+                            "type": "image",
+                            "x": 0,
+                            "y": 0,
+                            "width": 360,
+                            "height": 504,
+                            "column-index": null,
+                            "value": "https://snag.gy/rabxC6.jpg",
+                            "fill-style": "stretch",
+                            "id": 27
+                        }
+                    ],
+                    "flags": []
+                },
+                {
+                    "id": 28,
+                    "name": "If Event is Press",
+                    "columnIndex": 1,
+                    "expectedValue": "Press",
+                    "comparisonOperator": "==",
+                    "bindings": [
+                        {
+                            "name": "Press Event Background",
+                            "type": "image",
+                            "x": 0,
+                            "y": 0,
+                            "width": 360,
+                            "height": 504,
+                            "column-index": null,
+                            "value": "https://snag.gy/vIT29r.jpg",
+                            "fill-style": "stretch",
+                            "id": 29
+                        }
+                    ],
+                    "flags": []
+                },
+                {
+                    "id": 30,
+                    "name": "If Event is Family",
+                    "columnIndex": 1,
+                    "expectedValue": "Family",
+                    "comparisonOperator": "==",
+                    "bindings": [
+                        {
+                            "name": "Family Event Background",
+                            "type": "image",
+                            "x": 0,
+                            "y": 0,
+                            "width": 360,
+                            "height": 504,
+                            "column-index": null,
+                            "value": "https://snag.gy/Tz4uCx.jpg",
+                            "fill-style": "stretch",
+                            "id": 31
+                        }
+                    ],
+                    "flags": []
                 }
             ]
         },

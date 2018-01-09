@@ -18,7 +18,9 @@ class BindingStyles extends React.Component {
             "width": binding.width + "px",
             "height": binding.height + "px",
             "text-align": binding.align,
-            "font-weight": binding.hasOwnProperty("font-weight") ? binding['font-weight'] : "normal"
+            "font-weight": binding.hasOwnProperty("font-weight") ? binding['font-weight'] : "normal",
+            "color": binding.hasOwnProperty("color") ? binding['color'] : '#000000',
+            "-webkit-text-stroke": binding.hasOwnProperty("stroke") ? binding['stroke'] : "0"
         };
         if (binding.type === 'text') {
             declarations = Object.assign(
